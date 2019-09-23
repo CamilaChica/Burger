@@ -6,7 +6,6 @@ var burger = {
 			answer(res);
 		});
 	},
-	// cols and vals are arrays
 	insertOne: function (cols, vals, answer) {
 		orm.insertOne('burgers', cols, vals, function (res) {
 			answer(res);
